@@ -1,0 +1,1538 @@
+{
+  "bsdm": {
+    "sign": {
+      "properties": {
+        "id": "469fdbb9-cf17-4732-8fe9-04c66e47f4d9",
+        "version": "1.1.6",
+        "name": "courtesy_wifi_demo_v1",
+        "videoMode": "1920x1080x60p",
+        "model": "XT1144",
+        "monitorOrientation": "Landscape",
+        "monitorOverscan": "NoOverscan",
+        "videoConnector": "HDMI",
+        "deviceWebPageDisplay": "Custom",
+        "backgroundScreenColor": {
+          "a": 255,
+          "r": 0,
+          "g": 0,
+          "b": 160
+        },
+        "forceResolution": false,
+        "tenBitColorEnabled": false,
+        "dolbyVisionEnabled": false,
+        "fullResGraphicsEnabled": false,
+        "audioConfiguration": "MixedAudioPCMOnly",
+        "audioAutoLevel": false,
+        "htmlEnableJavascriptConsole": false,
+        "alphabetizeVariableNames": true,
+        "autoCreateMediaCounterVariables": false,
+        "resetVariablesOnPresentationStart": false,
+        "networkedVariablesUpdateInterval": 300,
+        "delayScheduleChangeUntilMediaEndEvent": false,
+        "language": "English",
+        "languageKey": "eng",
+        "flipCoordinates": false,
+        "inactivityTimeout": false,
+        "inactivityTime": 30,
+        "touchCursorDisplayMode": "Disabled",
+        "udpDestinationAddressType": "IPAddress",
+        "udpDestinationAddress": "127.0.0.1",
+        "udpDestinationPort": 5000,
+        "udpReceiverPort": 5000,
+        "enableEnhancedSynchronization": {},
+        "isMosaic": false,
+        "graphicsZOrder": "Back"
+      },
+      "serialPortConfigurations": [
+        {
+          "port": "0",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "1",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "2",
+          "baudRate": 19200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "3",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "4",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "5",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "6",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "7",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        }
+      ],
+      "gpio": [
+        "input",
+        "input",
+        "input",
+        "input",
+        "input",
+        "input",
+        "input",
+        "input"
+      ],
+      "buttonPanels": {
+        "bp900a": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp900b": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp900c": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp900d": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp200a": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp200b": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp200c": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp200d": {
+          "configureAutomatically": true,
+          "configuration": 0
+        }
+      },
+      "irRemote": {
+        "irInConfiguration": {
+          "source": "Iguana"
+        },
+        "irOutConfiguration": {
+          "destination": "Iguana"
+        },
+        "irRemoteControl": {
+          "id": "RC-1001",
+          "encoding": "NEC",
+          "manufacturerCode": 28560,
+          "buttons": {
+            "16": {
+              "buttonCode": 16,
+              "buttonDescription": "Left"
+            },
+            "17": {
+              "buttonCode": 17,
+              "buttonDescription": "Right"
+            },
+            "18": {
+              "buttonCode": 18,
+              "buttonDescription": "Up"
+            },
+            "19": {
+              "buttonCode": 19,
+              "buttonDescription": "Down"
+            },
+            "20": {
+              "buttonCode": 20,
+              "buttonDescription": "Ok"
+            },
+            "21": {
+              "buttonCode": 21,
+              "buttonDescription": "Back"
+            },
+            "22": {
+              "buttonCode": 22,
+              "buttonDescription": "Power"
+            },
+            "23": {
+              "buttonCode": 23,
+              "buttonDescription": "Home"
+            },
+            "24": {
+              "buttonCode": 24,
+              "buttonDescription": "Search"
+            },
+            "25": {
+              "buttonCode": 25,
+              "buttonDescription": "Play"
+            },
+            "26": {
+              "buttonCode": 26,
+              "buttonDescription": "Fast Forward"
+            },
+            "27": {
+              "buttonCode": 27,
+              "buttonDescription": "Rewind"
+            },
+            "28": {
+              "buttonCode": 28,
+              "buttonDescription": "Pause"
+            },
+            "29": {
+              "buttonCode": 29,
+              "buttonDescription": "Add"
+            },
+            "30": {
+              "buttonCode": 30,
+              "buttonDescription": "Shuffle"
+            },
+            "31": {
+              "buttonCode": 31,
+              "buttonDescription": "Repeat"
+            },
+            "64": {
+              "buttonCode": 64,
+              "buttonDescription": "Volume Up"
+            },
+            "65": {
+              "buttonCode": 65,
+              "buttonDescription": "Volume Down"
+            },
+            "66": {
+              "buttonCode": 66,
+              "buttonDescription": "Brightness"
+            }
+          }
+        }
+      },
+      "audioSignPropertyMap": {
+        "analog1": {
+          "min": 0,
+          "max": 100
+        },
+        "analog2": {
+          "min": 0,
+          "max": 100
+        },
+        "analog3": {
+          "min": 0,
+          "max": 100
+        },
+        "hdmi": {
+          "min": 0,
+          "max": 100
+        },
+        "spdif": {
+          "min": 0,
+          "max": 100
+        },
+        "usbA": {
+          "min": 0,
+          "max": 100
+        },
+        "usbB": {
+          "min": 0,
+          "max": 100
+        },
+        "usbC": {
+          "min": 0,
+          "max": 100
+        },
+        "usbD": {
+          "min": 0,
+          "max": 100
+        },
+        "usbTypeA": {
+          "min": 0,
+          "max": 100
+        },
+        "usbTypeC": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_1": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_2": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_3": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_4": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_5": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_6": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_7": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_1": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_2": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_3": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_4": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_5": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_6": {
+          "min": 0,
+          "max": 100
+        }
+      },
+      "wssDeviceSpec": {},
+      "lastModifiedTime": "2020-11-10T19:35:58.630Z"
+    },
+    "zones": {
+      "zonesById": {
+        "1812116e-6d66-4fb7-8ec6-33f355a328d3": {
+          "id": "1812116e-6d66-4fb7-8ec6-33f355a328d3",
+          "name": "Video or Images",
+          "type": "VideoOrImages",
+          "tag": "1",
+          "nonInteractive": false,
+          "initialMediaStateId": "fd7738e8-fe0e-44ff-b042-140c96dff42e",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080,
+            "pct": false
+          },
+          "properties": {
+            "viewMode": "Scale to Fill",
+            "videoVolume": 100,
+            "maxContentResolution": "4K",
+            "brightness": 128,
+            "contrast": 64,
+            "saturation": 64,
+            "hue": 0,
+            "zOrderFront": true,
+            "mosaic": false,
+            "audioOutput": "Analog",
+            "audioMode": "Surround",
+            "audioMapping": "Audio1",
+            "audioOutputAssignments": {
+              "analog1": "None",
+              "analog2": "None",
+              "analog3": "None",
+              "usbA": "None",
+              "usbB": "None",
+              "usbC": "None",
+              "usbD": "None",
+              "usbTypeA": "None",
+              "usbTypeC": "None",
+              "usb700_1": "None",
+              "usb700_2": "None",
+              "usb700_3": "None",
+              "usb700_4": "None",
+              "usb700_5": "None",
+              "usb700_6": "None",
+              "usb700_7": "None",
+              "usb_1": "None",
+              "usb_2": "None",
+              "usb_3": "None",
+              "usb_4": "None",
+              "usb_5": "None",
+              "usb_6": "None",
+              "hdmi": "Pcm",
+              "spdif": "None"
+            },
+            "audioMixMode": "Stereo",
+            "audioVolume": 40,
+            "minimumVolume": 0,
+            "maximumVolume": 100,
+            "imageMode": "Scale to Fill"
+          }
+        },
+        "3ba0a31b-c5a7-4f49-a396-825fba8cabca": {
+          "id": "3ba0a31b-c5a7-4f49-a396-825fba8cabca",
+          "name": "udp listener",
+          "type": "VideoOrImages",
+          "tag": "2",
+          "nonInteractive": false,
+          "initialMediaStateId": "5ff05c8d-7334-4dab-a40f-23c5765370c5",
+          "position": {
+            "x": 66,
+            "y": 66,
+            "width": 477,
+            "height": 380,
+            "pct": false
+          },
+          "properties": {
+            "viewMode": "Scale to Fill",
+            "videoVolume": 100,
+            "maxContentResolution": "HD",
+            "brightness": 128,
+            "contrast": 64,
+            "saturation": 64,
+            "hue": 0,
+            "zOrderFront": true,
+            "mosaic": false,
+            "audioOutput": "Analog",
+            "audioMode": "Surround",
+            "audioMapping": "Audio1",
+            "audioOutputAssignments": {
+              "analog1": "None",
+              "analog2": "None",
+              "analog3": "None",
+              "usbA": "None",
+              "usbB": "None",
+              "usbC": "None",
+              "usbD": "None",
+              "usbTypeA": "None",
+              "usbTypeC": "None",
+              "usb700_1": "None",
+              "usb700_2": "None",
+              "usb700_3": "None",
+              "usb700_4": "None",
+              "usb700_5": "None",
+              "usb700_6": "None",
+              "usb700_7": "None",
+              "usb_1": "None",
+              "usb_2": "None",
+              "usb_3": "None",
+              "usb_4": "None",
+              "usb_5": "None",
+              "usb_6": "None",
+              "hdmi": "None",
+              "spdif": "None"
+            },
+            "audioMixMode": "Stereo",
+            "audioVolume": 40,
+            "minimumVolume": 0,
+            "maximumVolume": 100,
+            "imageMode": "Scale to Fill"
+          }
+        }
+      },
+      "allZones": [
+        "1812116e-6d66-4fb7-8ec6-33f355a328d3",
+        "3ba0a31b-c5a7-4f49-a396-825fba8cabca"
+      ],
+      "zoneLayersById": {
+        "b3885ceb-6d94-4a15-926a-4e64746bbe02": {
+          "id": "b3885ceb-6d94-4a15-926a-4e64746bbe02",
+          "type": "Graphics",
+          "zoneSequence": [
+            "1812116e-6d66-4fb7-8ec6-33f355a328d3",
+            "3ba0a31b-c5a7-4f49-a396-825fba8cabca"
+          ]
+        },
+        "38bf4e1c-a4cc-4f88-8660-c840ff8242cd": {
+          "id": "38bf4e1c-a4cc-4f88-8660-c840ff8242cd",
+          "type": "Audio",
+          "zoneSequence": []
+        },
+        "96338fb0-a7bb-4193-9f0b-4b44a5efe35c": {
+          "id": "96338fb0-a7bb-4193-9f0b-4b44a5efe35c",
+          "type": "Invisible",
+          "zoneSequence": []
+        },
+        "ef23f447-93a9-424f-8c2c-ec952456f385": {
+          "id": "ef23f447-93a9-424f-8c2c-ec952456f385",
+          "type": "Video",
+          "zoneSequence": [
+            "1812116e-6d66-4fb7-8ec6-33f355a328d3"
+          ],
+          "zoneLayerSpecificProperties": {
+            "type": "FourK",
+            "index": 0,
+            "sharedDecoder": false,
+            "enableMosaicDeinterlacer": false
+          }
+        },
+        "719f0617-dd0e-4a63-953d-de1c6367d4d9": {
+          "id": "719f0617-dd0e-4a63-953d-de1c6367d4d9",
+          "type": "Video",
+          "zoneSequence": [
+            "3ba0a31b-c5a7-4f49-a396-825fba8cabca"
+          ],
+          "zoneLayerSpecificProperties": {
+            "type": "FourK",
+            "index": 1,
+            "sharedDecoder": false,
+            "enableMosaicDeinterlacer": false
+          }
+        }
+      },
+      "zoneLayerSequence": [
+        "b3885ceb-6d94-4a15-926a-4e64746bbe02",
+        "ef23f447-93a9-424f-8c2c-ec952456f385",
+        "719f0617-dd0e-4a63-953d-de1c6367d4d9"
+      ],
+      "zoneTagIndices": {
+        "1812116e-6d66-4fb7-8ec6-33f355a328d3": 3,
+        "3ba0a31b-c5a7-4f49-a396-825fba8cabca": 2
+      }
+    },
+    "mediaStates": {
+      "mediaStatesById": {
+        "0995ab76-67a7-48f9-80ee-193a6d6afd06": {
+          "id": "0995ab76-67a7-48f9-80ee-193a6d6afd06",
+          "name": "Live Text",
+          "tag": "1",
+          "container": {
+            "id": "1812116e-6d66-4fb7-8ec6-33f355a328d3",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Live Text",
+            "type": "LiveText",
+            "canvasId": "3c1b588e-a7b6-4747-9998-3101363e5891"
+          }
+        },
+        "5ff05c8d-7334-4dab-a40f-23c5765370c5": {
+          "id": "5ff05c8d-7334-4dab-a40f-23c5765370c5",
+          "name": "Event Handler",
+          "tag": "1",
+          "container": {
+            "id": "3ba0a31b-c5a7-4f49-a396-825fba8cabca",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Event Handler",
+            "type": "EventHandler",
+            "stopPlayback": false
+          }
+        },
+        "fd7738e8-fe0e-44ff-b042-140c96dff42e": {
+          "id": "fd7738e8-fe0e-44ff-b042-140c96dff42e",
+          "name": "HTML 5",
+          "tag": "2",
+          "container": {
+            "id": "1812116e-6d66-4fb7-8ec6-33f355a328d3",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "HTML 5",
+            "type": "Html",
+            "siteId": "5925390c-8b05-4364-a79a-aa28093dc090",
+            "enableBrightSignJavascriptObjects": true,
+            "enableCrossDomainPolicyChecks": false,
+            "ignoreHttpsCertificateErrors": false,
+            "enableCamera": false,
+            "enableMouseEvents": true,
+            "displayCursor": true,
+            "hwzOn": true,
+            "useUserStylesheet": false
+          }
+        }
+      },
+      "sequencesByParentId": {}
+    },
+    "events": {
+      "374a6d0a-46a5-4dad-a59d-669b0fdcde26": {
+        "id": "374a6d0a-46a5-4dad-a59d-669b0fdcde26",
+        "name": "Event Handler_ev_ev",
+        "type": "Udp",
+        "mediaStateId": "5ff05c8d-7334-4dab-a40f-23c5765370c5",
+        "disabled": false,
+        "data": {
+          "data": "<any>",
+          "label": "<any>",
+          "export": true,
+          "assignInputToUserVariable": true,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "c405f3cd-d871-46e6-afcf-53deeae4b424",
+          "userVariableToAssignWildcard": "0"
+        }
+      },
+      "a2c3b298-001e-45fa-8a49-3cb4ae2bff8b": {
+        "id": "a2c3b298-001e-45fa-8a49-3cb4ae2bff8b",
+        "name": "Live Text_ev_ev",
+        "type": "ZoneMessage",
+        "mediaStateId": "0995ab76-67a7-48f9-80ee-193a6d6afd06",
+        "disabled": false,
+        "data": {
+          "data": "reload"
+        }
+      }
+    },
+    "transitions": {
+      "transitionsById": {
+        "6451fb29-6b15-4694-9531-90b134c8ffc0": {
+          "id": "6451fb29-6b15-4694-9531-90b134c8ffc0",
+          "name": "Live Text_ev_tr",
+          "eventId": "a2c3b298-001e-45fa-8a49-3cb4ae2bff8b",
+          "targetMediaStateId": "0995ab76-67a7-48f9-80ee-193a6d6afd06",
+          "type": "No effect",
+          "duration": 0
+        }
+      },
+      "sequencesByEventId": {}
+    },
+    "commands": {
+      "commandsById": {
+        "2214809a-6150-486a-a8e5-13691638e4fe": {
+          "id": "2214809a-6150-486a-a8e5-13691638e4fe",
+          "name": "pause",
+          "operations": [
+            {
+              "type": "pause",
+              "data": {
+                "pauseTime": {
+                  "type": "Number",
+                  "value": 100
+                }
+              }
+            }
+          ],
+          "sequenceId": "9c08b0dd-45f8-40a2-9810-d8d1500c2d77"
+        },
+        "99cb956d-b189-4d74-bf8e-afd96b3301ea": {
+          "id": "99cb956d-b189-4d74-bf8e-afd96b3301ea",
+          "name": "sendZoneMessage",
+          "operations": [
+            {
+              "type": "sendZoneMessage",
+              "data": {
+                "messageData": {
+                  "params": [
+                    {
+                      "type": "Text",
+                      "value": "reload"
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "sequenceId": "9c08b0dd-45f8-40a2-9810-d8d1500c2d77"
+        }
+      },
+      "sequencesById": {
+        "9c08b0dd-45f8-40a2-9810-d8d1500c2d77": {
+          "id": "9c08b0dd-45f8-40a2-9810-d8d1500c2d77",
+          "type": "Event",
+          "parentId": "374a6d0a-46a5-4dad-a59d-669b0fdcde26",
+          "sequence": [
+            "2214809a-6150-486a-a8e5-13691638e4fe",
+            "99cb956d-b189-4d74-bf8e-afd96b3301ea"
+          ]
+        }
+      }
+    },
+    "htmlSites": {
+      "25754b03-bb3b-4594-97b2-46d1ab27c2b7": {
+        "id": "25754b03-bb3b-4594-97b2-46d1ab27c2b7",
+        "type": "Remote",
+        "name": "fb",
+        "queryString": {
+          "params": []
+        },
+        "url": {
+          "params": [
+            {
+              "type": "Text",
+              "value": "https://www.facebook.com"
+            }
+          ]
+        }
+      },
+      "5925390c-8b05-4364-a79a-aa28093dc090": {
+        "id": "5925390c-8b05-4364-a79a-aa28093dc090",
+        "type": "Hosted",
+        "name": "HTML 5 Site",
+        "queryString": {
+          "params": []
+        },
+        "indexAssetId": "17130783-9d3b-4ce1-a4e0-bcd4919d0b2a",
+        "enableNode": false
+      }
+    },
+    "nodeApps": {
+      "627fbfa1-1341-4b57-89b4-7f3d78802767": {
+        "id": "627fbfa1-1341-4b57-89b4-7f3d78802767",
+        "name": "queue",
+        "indexAssetId": "f58d49f4-ba31-4acb-a785-382decb80c80"
+      }
+    },
+    "dataFeeds": {
+      "feedsById": {},
+      "sourcesById": {}
+    },
+    "userVariables": {
+      "variablesById": {
+        "b9581b96-3a62-4275-bedc-d70c4cf907d9": {
+          "id": "b9581b96-3a62-4275-bedc-d70c4cf907d9",
+          "name": "ssid",
+          "defaultValue": {
+            "params": [
+              {
+                "type": "Text",
+                "value": "sign net"
+              }
+            ]
+          },
+          "access": "Private",
+          "isNetworked": false,
+          "dataFeedId": "0",
+          "systemVariable": null
+        },
+        "1ac07d55-3f2b-4a62-a6cc-638ce2814db4": {
+          "id": "1ac07d55-3f2b-4a62-a6cc-638ce2814db4",
+          "name": "password",
+          "defaultValue": {
+            "params": []
+          },
+          "access": "Private",
+          "isNetworked": false,
+          "dataFeedId": "0",
+          "systemVariable": null
+        },
+        "dd04eec0-b84f-47d8-a845-3703fa51c608": {
+          "id": "dd04eec0-b84f-47d8-a845-3703fa51c608",
+          "name": "hostname",
+          "defaultValue": {
+            "params": [
+              {
+                "type": "Text",
+                "value": "brightlink.app"
+              }
+            ]
+          },
+          "access": "Private",
+          "isNetworked": false,
+          "dataFeedId": "0",
+          "systemVariable": null
+        },
+        "391bbf87-5053-4d15-98e8-161efd6e0a34": {
+          "id": "391bbf87-5053-4d15-98e8-161efd6e0a34",
+          "name": "gatewayaddress",
+          "defaultValue": {
+            "params": [
+              {
+                "type": "Text",
+                "value": "192.168.10.1"
+              }
+            ]
+          },
+          "access": "Private",
+          "isNetworked": false,
+          "dataFeedId": "0",
+          "systemVariable": null
+        },
+        "1574f33c-e204-4a80-a18b-3f9d569031b8": {
+          "id": "1574f33c-e204-4a80-a18b-3f9d569031b8",
+          "name": "ipaddress",
+          "defaultValue": {
+            "params": [
+              {
+                "type": "Text",
+                "value": "192.168.10.200"
+              }
+            ]
+          },
+          "access": "Private",
+          "isNetworked": false,
+          "dataFeedId": "0",
+          "systemVariable": null
+        },
+        "4b1621bd-b124-4a8f-8cfe-42c26fa25d75": {
+          "id": "4b1621bd-b124-4a8f-8cfe-42c26fa25d75",
+          "name": "ipstart",
+          "defaultValue": {
+            "params": [
+              {
+                "type": "Text",
+                "value": "192.168.10.2"
+              }
+            ]
+          },
+          "access": "Private",
+          "isNetworked": false,
+          "dataFeedId": "0",
+          "systemVariable": null
+        },
+        "b2c86eca-b612-4151-af67-ff3e92c53912": {
+          "id": "b2c86eca-b612-4151-af67-ff3e92c53912",
+          "name": "ipend",
+          "defaultValue": {
+            "params": [
+              {
+                "type": "Text",
+                "value": "192.168.10.255"
+              }
+            ]
+          },
+          "access": "Private",
+          "isNetworked": false,
+          "dataFeedId": "0",
+          "systemVariable": null
+        },
+        "27bd5fdc-299c-4827-b16f-dd7e39e14ff2": {
+          "id": "27bd5fdc-299c-4827-b16f-dd7e39e14ff2",
+          "name": "frequency",
+          "defaultValue": {
+            "params": [
+              {
+                "type": "Text",
+                "value": "2412"
+              }
+            ]
+          },
+          "access": "Private",
+          "isNetworked": false,
+          "dataFeedId": "0",
+          "systemVariable": null
+        },
+        "d2a9faf5-b5e9-4688-88ba-29730e80fffe": {
+          "id": "d2a9faf5-b5e9-4688-88ba-29730e80fffe",
+          "name": "connect-status",
+          "defaultValue": {
+            "params": [
+              {
+                "type": "Text",
+                "value": "disconnected"
+              }
+            ]
+          },
+          "access": "Private",
+          "isNetworked": false,
+          "dataFeedId": "0",
+          "systemVariable": null
+        },
+        "c405f3cd-d871-46e6-afcf-53deeae4b424": {
+          "id": "c405f3cd-d871-46e6-afcf-53deeae4b424",
+          "name": "message",
+          "defaultValue": {
+            "params": [
+              {
+                "type": "Text",
+                "value": "message"
+              }
+            ]
+          },
+          "access": "Private",
+          "isNetworked": false,
+          "dataFeedId": "0",
+          "systemVariable": null
+        }
+      },
+      "sequence": [
+        "b9581b96-3a62-4275-bedc-d70c4cf907d9",
+        "1ac07d55-3f2b-4a62-a6cc-638ce2814db4",
+        "dd04eec0-b84f-47d8-a845-3703fa51c608",
+        "391bbf87-5053-4d15-98e8-161efd6e0a34",
+        "1574f33c-e204-4a80-a18b-3f9d569031b8",
+        "4b1621bd-b124-4a8f-8cfe-42c26fa25d75",
+        "b2c86eca-b612-4151-af67-ff3e92c53912",
+        "27bd5fdc-299c-4827-b16f-dd7e39e14ff2",
+        "d2a9faf5-b5e9-4688-88ba-29730e80fffe",
+        "c405f3cd-d871-46e6-afcf-53deeae4b424"
+      ]
+    },
+    "liveText": {
+      "itemsById": {
+        "7f402842-f402-4217-83b4-276480704eb9": {
+          "id": "7f402842-f402-4217-83b4-276480704eb9",
+          "canvasId": "3c1b588e-a7b6-4747-9998-3101363e5891",
+          "position": {
+            "x": 106,
+            "y": 178,
+            "width": 960,
+            "height": 64,
+            "pct": false
+          },
+          "type": "UserVariable",
+          "userVariableIdOrName": "b9581b96-3a62-4275-bedc-d70c4cf907d9",
+          "textWidget": {
+            "numberOfLines": 1,
+            "delay": 5,
+            "rotation": "0",
+            "alignment": "Left",
+            "scrollingMethod": "Animated"
+          },
+          "widget": {
+            "foregroundTextColor": {
+              "a": 255,
+              "r": 160,
+              "g": 160,
+              "b": 160
+            },
+            "backgroundTextColor": {
+              "a": 255,
+              "r": 0,
+              "g": 0,
+              "b": 0
+            },
+            "font": "System",
+            "fontSize": 0,
+            "backgroundBitmapAssetId": "0",
+            "stretchBitmapFile": false
+          },
+          "useBackgroundColor": false
+        },
+        "8a552b09-ad95-46a8-b1f5-8fce40e9f5fa": {
+          "id": "8a552b09-ad95-46a8-b1f5-8fce40e9f5fa",
+          "canvasId": "3c1b588e-a7b6-4747-9998-3101363e5891",
+          "position": {
+            "x": 106,
+            "y": 258,
+            "width": 960,
+            "height": 64,
+            "pct": false
+          },
+          "type": "UserVariable",
+          "userVariableIdOrName": "1ac07d55-3f2b-4a62-a6cc-638ce2814db4",
+          "textWidget": {
+            "numberOfLines": 1,
+            "delay": 5,
+            "rotation": "0",
+            "alignment": "Left",
+            "scrollingMethod": "Animated"
+          },
+          "widget": {
+            "foregroundTextColor": {
+              "a": 255,
+              "r": 160,
+              "g": 160,
+              "b": 160
+            },
+            "backgroundTextColor": {
+              "a": 255,
+              "r": 0,
+              "g": 0,
+              "b": 0
+            },
+            "font": "System",
+            "fontSize": 0,
+            "backgroundBitmapAssetId": "0",
+            "stretchBitmapFile": false
+          },
+          "useBackgroundColor": false
+        },
+        "ebb249ec-acfd-45eb-a9a9-84547cdae8d4": {
+          "id": "ebb249ec-acfd-45eb-a9a9-84547cdae8d4",
+          "canvasId": "3c1b588e-a7b6-4747-9998-3101363e5891",
+          "position": {
+            "x": 106,
+            "y": 338,
+            "width": 960,
+            "height": 64,
+            "pct": false
+          },
+          "type": "UserVariable",
+          "userVariableIdOrName": "dd04eec0-b84f-47d8-a845-3703fa51c608",
+          "textWidget": {
+            "numberOfLines": 1,
+            "delay": 5,
+            "rotation": "0",
+            "alignment": "Left",
+            "scrollingMethod": "Animated"
+          },
+          "widget": {
+            "foregroundTextColor": {
+              "a": 255,
+              "r": 160,
+              "g": 160,
+              "b": 160
+            },
+            "backgroundTextColor": {
+              "a": 255,
+              "r": 0,
+              "g": 0,
+              "b": 0
+            },
+            "font": "System",
+            "fontSize": 0,
+            "backgroundBitmapAssetId": "0",
+            "stretchBitmapFile": false
+          },
+          "useBackgroundColor": false
+        },
+        "c9b3466b-4861-4fa8-99ae-acf7e07ba51a": {
+          "id": "c9b3466b-4861-4fa8-99ae-acf7e07ba51a",
+          "canvasId": "3c1b588e-a7b6-4747-9998-3101363e5891",
+          "position": {
+            "x": 106,
+            "y": 418,
+            "width": 960,
+            "height": 64,
+            "pct": false
+          },
+          "type": "UserVariable",
+          "userVariableIdOrName": "391bbf87-5053-4d15-98e8-161efd6e0a34",
+          "textWidget": {
+            "numberOfLines": 1,
+            "delay": 5,
+            "rotation": "0",
+            "alignment": "Left",
+            "scrollingMethod": "Animated"
+          },
+          "widget": {
+            "foregroundTextColor": {
+              "a": 255,
+              "r": 160,
+              "g": 160,
+              "b": 160
+            },
+            "backgroundTextColor": {
+              "a": 255,
+              "r": 0,
+              "g": 0,
+              "b": 0
+            },
+            "font": "System",
+            "fontSize": 0,
+            "backgroundBitmapAssetId": "0",
+            "stretchBitmapFile": false
+          },
+          "useBackgroundColor": false
+        },
+        "2791a3b9-f328-4767-8a3c-0c959e950a9b": {
+          "id": "2791a3b9-f328-4767-8a3c-0c959e950a9b",
+          "canvasId": "3c1b588e-a7b6-4747-9998-3101363e5891",
+          "position": {
+            "x": 106,
+            "y": 498,
+            "width": 960,
+            "height": 64,
+            "pct": false
+          },
+          "type": "UserVariable",
+          "userVariableIdOrName": "1574f33c-e204-4a80-a18b-3f9d569031b8",
+          "textWidget": {
+            "numberOfLines": 1,
+            "delay": 5,
+            "rotation": "0",
+            "alignment": "Left",
+            "scrollingMethod": "Animated"
+          },
+          "widget": {
+            "foregroundTextColor": {
+              "a": 255,
+              "r": 160,
+              "g": 160,
+              "b": 160
+            },
+            "backgroundTextColor": {
+              "a": 255,
+              "r": 0,
+              "g": 0,
+              "b": 0
+            },
+            "font": "System",
+            "fontSize": 0,
+            "backgroundBitmapAssetId": "0",
+            "stretchBitmapFile": false
+          },
+          "useBackgroundColor": false
+        },
+        "a64350a5-0798-49b6-bafb-1e7dc9267769": {
+          "id": "a64350a5-0798-49b6-bafb-1e7dc9267769",
+          "canvasId": "3c1b588e-a7b6-4747-9998-3101363e5891",
+          "position": {
+            "x": 106,
+            "y": 578,
+            "width": 960,
+            "height": 64,
+            "pct": false
+          },
+          "type": "UserVariable",
+          "userVariableIdOrName": "4b1621bd-b124-4a8f-8cfe-42c26fa25d75",
+          "textWidget": {
+            "numberOfLines": 1,
+            "delay": 5,
+            "rotation": "0",
+            "alignment": "Left",
+            "scrollingMethod": "Animated"
+          },
+          "widget": {
+            "foregroundTextColor": {
+              "a": 255,
+              "r": 160,
+              "g": 160,
+              "b": 160
+            },
+            "backgroundTextColor": {
+              "a": 255,
+              "r": 0,
+              "g": 0,
+              "b": 0
+            },
+            "font": "System",
+            "fontSize": 0,
+            "backgroundBitmapAssetId": "0",
+            "stretchBitmapFile": false
+          },
+          "useBackgroundColor": false
+        },
+        "abde759d-8487-4f7e-adc7-dc8ca5485939": {
+          "id": "abde759d-8487-4f7e-adc7-dc8ca5485939",
+          "canvasId": "3c1b588e-a7b6-4747-9998-3101363e5891",
+          "position": {
+            "x": 106,
+            "y": 658,
+            "width": 960,
+            "height": 64,
+            "pct": false
+          },
+          "type": "UserVariable",
+          "userVariableIdOrName": "b2c86eca-b612-4151-af67-ff3e92c53912",
+          "textWidget": {
+            "numberOfLines": 1,
+            "delay": 5,
+            "rotation": "0",
+            "alignment": "Left",
+            "scrollingMethod": "Animated"
+          },
+          "widget": {
+            "foregroundTextColor": {
+              "a": 255,
+              "r": 160,
+              "g": 160,
+              "b": 160
+            },
+            "backgroundTextColor": {
+              "a": 255,
+              "r": 0,
+              "g": 0,
+              "b": 0
+            },
+            "font": "System",
+            "fontSize": 0,
+            "backgroundBitmapAssetId": "0",
+            "stretchBitmapFile": false
+          },
+          "useBackgroundColor": false
+        },
+        "a9968e6d-3c31-4d6e-aafb-a53d4eee3d88": {
+          "id": "a9968e6d-3c31-4d6e-aafb-a53d4eee3d88",
+          "canvasId": "3c1b588e-a7b6-4747-9998-3101363e5891",
+          "position": {
+            "x": 106,
+            "y": 738,
+            "width": 960,
+            "height": 64,
+            "pct": false
+          },
+          "type": "UserVariable",
+          "userVariableIdOrName": "27bd5fdc-299c-4827-b16f-dd7e39e14ff2",
+          "textWidget": {
+            "numberOfLines": 1,
+            "delay": 5,
+            "rotation": "0",
+            "alignment": "Left",
+            "scrollingMethod": "Animated"
+          },
+          "widget": {
+            "foregroundTextColor": {
+              "a": 255,
+              "r": 160,
+              "g": 160,
+              "b": 160
+            },
+            "backgroundTextColor": {
+              "a": 255,
+              "r": 0,
+              "g": 0,
+              "b": 0
+            },
+            "font": "System",
+            "fontSize": 0,
+            "backgroundBitmapAssetId": "0",
+            "stretchBitmapFile": false
+          },
+          "useBackgroundColor": false
+        },
+        "3c8f5061-6ee5-44a0-9341-edd17556e302": {
+          "id": "3c8f5061-6ee5-44a0-9341-edd17556e302",
+          "canvasId": "3c1b588e-a7b6-4747-9998-3101363e5891",
+          "position": {
+            "x": 106,
+            "y": 818,
+            "width": 960,
+            "height": 64,
+            "pct": false
+          },
+          "type": "UserVariable",
+          "userVariableIdOrName": "d2a9faf5-b5e9-4688-88ba-29730e80fffe",
+          "textWidget": {
+            "numberOfLines": 1,
+            "delay": 5,
+            "rotation": "0",
+            "alignment": "Left",
+            "scrollingMethod": "Animated"
+          },
+          "widget": {
+            "foregroundTextColor": {
+              "a": 255,
+              "r": 160,
+              "g": 160,
+              "b": 160
+            },
+            "backgroundTextColor": {
+              "a": 255,
+              "r": 0,
+              "g": 0,
+              "b": 0
+            },
+            "font": "System",
+            "fontSize": 0,
+            "backgroundBitmapAssetId": "0",
+            "stretchBitmapFile": false
+          },
+          "useBackgroundColor": false
+        },
+        "7e395eca-105f-4a9c-ae66-d5171a4d8d6f": {
+          "id": "7e395eca-105f-4a9c-ae66-d5171a4d8d6f",
+          "canvasId": "3c1b588e-a7b6-4747-9998-3101363e5891",
+          "position": {
+            "x": 66,
+            "y": 40,
+            "width": 1787,
+            "height": 96,
+            "pct": false
+          },
+          "type": "UserVariable",
+          "userVariableIdOrName": "c405f3cd-d871-46e6-afcf-53deeae4b424",
+          "textWidget": {
+            "numberOfLines": 1,
+            "delay": 5,
+            "rotation": "0",
+            "alignment": "Left",
+            "scrollingMethod": "Animated"
+          },
+          "widget": {
+            "foregroundTextColor": {
+              "a": 255,
+              "r": 255,
+              "g": 0,
+              "b": 0
+            },
+            "backgroundTextColor": {
+              "a": 255,
+              "r": 0,
+              "g": 0,
+              "b": 0
+            },
+            "font": "System",
+            "fontSize": 0,
+            "backgroundBitmapAssetId": "0",
+            "stretchBitmapFile": false
+          },
+          "useBackgroundColor": false
+        }
+      },
+      "layersByCanvasId": {
+        "3c1b588e-a7b6-4747-9998-3101363e5891": [
+          "7f402842-f402-4217-83b4-276480704eb9",
+          "8a552b09-ad95-46a8-b1f5-8fce40e9f5fa",
+          "ebb249ec-acfd-45eb-a9a9-84547cdae8d4",
+          "c9b3466b-4861-4fa8-99ae-acf7e07ba51a",
+          "2791a3b9-f328-4767-8a3c-0c959e950a9b",
+          "a64350a5-0798-49b6-bafb-1e7dc9267769",
+          "abde759d-8487-4f7e-adc7-dc8ca5485939",
+          "a9968e6d-3c31-4d6e-aafb-a53d4eee3d88",
+          "3c8f5061-6ee5-44a0-9341-edd17556e302",
+          "7e395eca-105f-4a9c-ae66-d5171a4d8d6f"
+        ]
+      },
+      "dataFeedsByGroupId": {},
+      "canvasesById": {
+        "3c1b588e-a7b6-4747-9998-3101363e5891": {
+          "id": "3c1b588e-a7b6-4747-9998-3101363e5891",
+          "backgroundImageId": "0",
+          "backgroundColor": {
+            "a": 255,
+            "r": 0,
+            "g": 0,
+            "b": 0
+          },
+          "backgroundWidth": null,
+          "backgroundHeight": null
+        }
+      }
+    },
+    "deviceWebPages": {
+      "e51f2ba7-c018-4b07-a15a-6e3f35f2917c": {
+        "id": "e51f2ba7-c018-4b07-a15a-6e3f35f2917c",
+        "name": "Phone",
+        "indexAssetId": "51c5a13d-b12b-46f9-affb-057f43c25e9a",
+        "port": 0
+      }
+    },
+    "scriptPlugins": {
+      "d5a54ca4-ef49-4c7a-bb2b-a00e7480c037": {
+        "id": "d5a54ca4-ef49-4c7a-bb2b-a00e7480c037",
+        "name": "httpServer",
+        "assetId": "1bc7754e-b4a9-491a-a108-f4467e25f823"
+      },
+      "1f7d3b7c-3611-4583-a956-b4c898e0c8e5": {
+        "id": "1f7d3b7c-3611-4583-a956-b4c898e0c8e5",
+        "name": "Access",
+        "assetId": "da6fa826-644f-4664-936b-f19b49d88ac6"
+      }
+    },
+    "parserPlugins": {},
+    "videoModePlugins": {},
+    "auxiliaryFiles": {
+      "7d73d196-a8d9-4df1-a280-c9692be2b901": {
+        "id": "7d73d196-a8d9-4df1-a280-c9692be2b901",
+        "name": "C:\\Users\\Evan\\Documents\\GitHub\\Amazon-Devices-Gen2\\brightlink\\courtesy_wifi\\courtesy_wifi_presentation_demo\\npm.zip",
+        "assetId": "fd951ad0-50b2-4db7-b240-5ace45ee563a"
+      }
+    },
+    "linkedPresentations": {},
+    "partnerProducts": {},
+    "customAutorun": "0",
+    "assetMap": {
+      "1bc7754e-b4a9-491a-a108-f4467e25f823": {
+        "id": "1bc7754e-b4a9-491a-a108-f4467e25f823",
+        "name": "httpServer-npm-auto_v3.brs",
+        "path": "C:\\Users\\Evan\\Documents\\GitHub\\Amazon-Devices-Gen2\\brightlink\\courtesy_wifi\\courtesy_wifi_presentation_demo\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "BrightScript",
+        "scope": "f9b87a3a431c0f3a",
+        "locator": "file://\\C:\\Users\\Evan\\Documents\\GitHub\\Amazon-Devices-Gen2\\brightlink\\courtesy_wifi\\courtesy_wifi_presentation_demo\\httpServer-npm-auto_v3.brs",
+        "fileSize": 10638,
+        "lastModifiedDate": "2020-11-02T18:35:42.551Z",
+        "refCount": 1
+      },
+      "da6fa826-644f-4664-936b-f19b49d88ac6": {
+        "id": "da6fa826-644f-4664-936b-f19b49d88ac6",
+        "name": "Set_Player_As_Access_Point_plugin.brs",
+        "path": "C:\\Users\\Evan\\Documents\\GitHub\\Amazon-Devices-Gen2\\brightlink\\courtesy_wifi\\courtesy_wifi_presentation_demo\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "BrightScript",
+        "scope": "f9b87a3a431c0f3a",
+        "locator": "file://\\C:\\Users\\Evan\\Documents\\GitHub\\Amazon-Devices-Gen2\\brightlink\\courtesy_wifi\\courtesy_wifi_presentation_demo\\Set_Player_As_Access_Point_plugin.brs",
+        "fileSize": 4655,
+        "lastModifiedDate": "2020-11-02T18:35:42.482Z",
+        "refCount": 1
+      },
+      "fd951ad0-50b2-4db7-b240-5ace45ee563a": {
+        "id": "fd951ad0-50b2-4db7-b240-5ace45ee563a",
+        "name": "npm.zip",
+        "path": "C:\\Users\\Evan\\Documents\\GitHub\\Amazon-Devices-Gen2\\brightlink\\courtesy_wifi\\courtesy_wifi_presentation_demo\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "f9b87a3a431c0f3a",
+        "locator": "file://\\C:\\Users\\Evan\\Documents\\GitHub\\Amazon-Devices-Gen2\\brightlink\\courtesy_wifi\\courtesy_wifi_presentation_demo\\npm.zip",
+        "mediaType": "Auxiliary",
+        "fileSize": 23476,
+        "lastModifiedDate": "2020-11-02T18:35:42.580Z",
+        "refCount": 1
+      },
+      "f58d49f4-ba31-4acb-a785-382decb80c80": {
+        "id": "f58d49f4-ba31-4acb-a785-382decb80c80",
+        "name": "queue.js",
+        "path": "C:\\Users\\Evan\\Desktop\\HUB DB Testing\\amazon-foh\\src\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "HtmlSite",
+        "scope": "f9b87a3a431c0f3a",
+        "locator": "file://\\C:\\Users\\Evan\\Desktop\\HUB DB Testing\\amazon-foh\\src\\queue.js",
+        "fileSize": 17065,
+        "lastModifiedDate": "2020-11-02T18:35:48.067Z",
+        "refCount": 1
+      },
+      "17130783-9d3b-4ce1-a4e0-bcd4919d0b2a": {
+        "id": "17130783-9d3b-4ce1-a4e0-bcd4919d0b2a",
+        "name": "tv.html",
+        "path": "C:\\Users\\Evan\\Desktop\\HUB DB Testing\\amazon-foh\\html\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "HtmlSite",
+        "scope": "f9b87a3a431c0f3a",
+        "locator": "file://\\C:\\Users\\Evan\\Desktop\\HUB DB Testing\\amazon-foh\\html\\tv.html",
+        "fileSize": 7067,
+        "lastModifiedDate": "2020-11-02T14:58:52.754Z",
+        "refCount": 1
+      },
+      "51c5a13d-b12b-46f9-affb-057f43c25e9a": {
+        "id": "51c5a13d-b12b-46f9-affb-057f43c25e9a",
+        "name": "phone.html",
+        "path": "C:\\Users\\Evan\\Desktop\\HUB DB Testing\\amazon-foh\\html\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "HtmlSite",
+        "scope": "f9b87a3a431c0f3a",
+        "locator": "file://\\C:\\Users\\Evan\\Desktop\\HUB DB Testing\\amazon-foh\\html\\phone.html",
+        "fileSize": 5870,
+        "lastModifiedDate": "2020-11-05T19:28:54.589Z",
+        "refCount": 2
+      }
+    },
+    "thumbnail": {
+      "type": "image/jpeg",
+      "data": "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",
+      "size": {
+        "width": 200,
+        "height": 112
+      },
+      "hash": "3fbb63ed25f2a0a547d917f6dca37147cf48d3c9"
+    }
+  },
+  "canvas": {
+    "tab": "CONTENT"
+  },
+  "selection": {
+    "hovered": null,
+    "selectionContainer": {
+      "id": "1812116e-6d66-4fb7-8ec6-33f355a328d3",
+      "type": "ZONE",
+      "selectableType": "ZONE"
+    },
+    "selectionEntities": {},
+    "isEventAdvancedEnabled": false,
+    "activeAssetMenuTab": "WIDGETS",
+    "prevSelectionEntities": {
+      "fd7738e8-fe0e-44ff-b042-140c96dff42e": {
+        "id": "fd7738e8-fe0e-44ff-b042-140c96dff42e",
+        "type": "Html",
+        "selectableType": "STATE",
+        "selectableData": null
+      }
+    }
+  },
+  "interactiveCanvas": {
+    "statePositionById": {
+      "0995ab76-67a7-48f9-80ee-193a6d6afd06": {
+        "id": "0995ab76-67a7-48f9-80ee-193a6d6afd06",
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "fd7738e8-fe0e-44ff-b042-140c96dff42e": {
+        "id": "fd7738e8-fe0e-44ff-b042-140c96dff42e",
+        "position": {
+          "x": -233.22642517089844,
+          "y": -2.570204019546509
+        }
+      }
+    },
+    "eventDataById": {
+      "a2c3b298-001e-45fa-8a49-3cb4ae2bff8b": {
+        "id": "a2c3b298-001e-45fa-8a49-3cb4ae2bff8b",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      }
+    },
+    "viewTransformByZoneId": {
+      "1812116e-6d66-4fb7-8ec6-33f355a328d3": {
+        "x": 0,
+        "y": 0,
+        "k": 1
+      }
+    },
+    "interactiveScaleType": "Large",
+    "isLoaderEnabled": false
+  },
+  "eventMenu": {
+    "isOpen": true,
+    "showTitles": true,
+    "assetPanelScaleType": "Large",
+    "scaleType": "Large"
+  },
+  "liveText": {
+    "3c1b588e-a7b6-4747-9998-3101363e5891": {
+      "isOffsetEnabled": true,
+      "offsetX": 100,
+      "offsetY": 100,
+      "isGridLinesEnabled": false,
+      "verticalGridLineCount": 9,
+      "horizontalGridLineCount": 9
+    }
+  }
+}

@@ -6,7 +6,7 @@
 
 Function httpServer_Initialize(msgPort As Object, userVariables As Object, bsp as Object)
 
-    print "httpServer_Initialize - entry"
+    print "httpServer_Initialize - entry -------------------------------------------------------------"
 
 	httpServer = newhttpServer(msgPort, userVariables, bsp)
 	
@@ -92,7 +92,7 @@ Function newhttpServer(msgPort As Object, userVariables As Object, bsp as Object
                 dl.sendline("@@@@@@@@@@Pkg invalid")			
             endif
         else
-            print "Cannot find sd:/npm.zip"
+            print "Cannot find sd:/npm.zip ---------------------------------------------"
         endif 
          ' instructions.zip including .png, jpg, that brightsign includes        
 
@@ -117,7 +117,7 @@ Function newhttpServer(msgPort As Object, userVariables As Object, bsp as Object
                 dl.sendline("@@@@@@@@@@Pkg invalid")			
             endif
         else
-            print "Cannot find sd:/instructions.zip"
+            print "Cannot find sd:/instructions.zip -------------------------------------------"
         end if        
     end if
    
@@ -134,21 +134,23 @@ Function httpServer_ProcessEvent(event As Object) as boolean
     m.getVariableValues()
 
 	  retval = false
-    print "httpserver_ProcessEvent - entry"
+    print "httpserver_ProcessEvent - entry ----------------------------------------------------------"
     print "type of m is ";type(m)
     print "type of event is ";type(event)
 		
 	if (m.firsttime) then
-    print "apply forwarding policy"
+    print "apply forwarding policy ----------------------------------------------------------"
 		m.firsttime = false
 		nc = createobject("ronetworkconfiguration", 0)
     ipReg = CreateObject("roRegex", "\.", "i")
     ipFields = ipReg.split(m.AP_AP_Address)
     ipConcat = ipFields[0] + "." + ipFields[1] + "." + ipFields[2] + ".0"
     print "ipConcat: ";ipConcat
+    
+    
 		result = nc.setforwardingpolicy({ forwarding_enabled: true, nat_enabled: true})
     if result = false then
-      print "setforwardingpolicy failed: ";nc.GetFailureReason();
+      print "setforwardingpolicy failed: -----------------------------------------------";nc.GetFailureReason();
     end if
 		nc.apply()
     
@@ -157,6 +159,9 @@ Function httpServer_ProcessEvent(event As Object) as boolean
     m.bsp.svcPort.SetUserData("BrightSign")
     m.bsp.svcPort.SetPort(m.mpSvc)
     m.bsp.svcPortIdentity = stri(m.bsp.svcPort.GetIdentity())
+    dnsresult = nc.adddnsserver("192.168.10.200")
+    print "DNS RESULT ((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((("; dnsresult
+    print nc.getcurrentconfig().dns_servers
 	endif
 
 
@@ -168,7 +173,7 @@ Function httpServer_ProcessEvent(event As Object) as boolean
     ' if stri(event.GetSourceIdentity()) = stri(m.bsp.svcPort.GetIdentity()) then
       if event.GetInt() = 12 and m.isAdminServerStart = true and m.resetPasswordTimer = true then
         result = m.dgSocket.SendTo("127.0.0.1", 5902, "svcpressed!!true")
-        print "Send svcpressed!!true: ";result 
+        print "Send svcpressed!!true: ------------------------------------------------";result 
         retval = true
         ' RestartApplication()
       else if event.GetInt() = 12 then
@@ -181,7 +186,7 @@ Function httpServer_ProcessEvent(event As Object) as boolean
 		if type(event["EventType"]) = "roString"
 		
 		  et$=event["EventType"]
-		  print "event type is" ;et$
+		  print "event type is ----------------------------------------------" ;et$
     end if
   else if type(event) = "roDatagramEvent" then
 
@@ -194,15 +199,15 @@ Function httpServer_ProcessEvent(event As Object) as boolean
       if fields.Count() >= 2 and fields[0] = "httpserver" then
         if fields[1] = "reboot" then ' called by setting user variables in admin page
           retval = true
-          print "RestartApplication() called in httpServer plugin"
+          print "RestartApplication() called in httpServer plugin ----------------------------------------------------------"
           RestartApplication()
         else if fields[1] = "resetpasswordtimer" and fields[2] = "on" then
           retval = true
-          print "resetPasswordTimer is on"
+          print "resetPasswordTimer is on ----------------------------------------------------------"
           m.resetPasswordTimer = true
         else if fields[1] = "resetpasswordtimer" and fields[2] = "off" then
           retval = true
-          print "resetPasswordTimer is off"
+          print "resetPasswordTimer is off ----------------------------------------------------------"
           m.resetPasswordTimer = false
         end If
       end if
@@ -259,14 +264,14 @@ Function GetFiles(pr as object) as Boolean
 
 	if runpath$ <> "" then 
 		okrun = Copyfile(runpath$, "npm.zip")
-		print "copy npm.zip: ";okrun
+		print "copy npm.zip: -------------------------------------";okrun
 		' if okrun then
         ' Deletefile(runpath$)
     ' end if
 	
   else
 		slog.sendline("One or more files didn't return a pool path")
-		print "file found: ";okrun
+		print "file found: ------------------------------------";okrun
 	endif
 
   runpath2$ = GetPoolFilePath(pr.assetPoolFiles, "instructions.zip")
@@ -274,14 +279,14 @@ Function GetFiles(pr as object) as Boolean
   okrun2 = false
 	if runpath2$ <> "" then 
 		  okrun2 = Copyfile(runpath2$, "instructions.zip")
-		  print "copy instructions.zip: ";okrun2
+		  print "copy instructions.zip: ------------------------------------";okrun2
 		  ' if okrun2 then
           ' Deletefile(runpath2$)
       ' end if
 
   else
 		slog.sendline("One or more files didn't return a pool path")
-		print "instructions.zip file found: ";okrun2
+		print "instructions.zip file found: ----------------------------------------";okrun2
 	endif
 
     if okrun then
@@ -308,7 +313,7 @@ Function Canwestart() as boolean
 		'if auto then Deletefile("npm.zip") 'new, from Julian
 	Next
 	
-	print "auto: ";auto
+	print "auto: -----------------------------------------------";auto
 	
 	If auto then
 		return true
@@ -323,7 +328,7 @@ Sub httpServer_HandleJSEvent(origMsg as Object)
 
     jsm = origMsg.GetData()
     print jsm
-    print "printing reason: "; jsm.reason
+    print "printing reason: --------------------------------------------------------"; jsm.reason
 
     if jsm.reason = "message" then
         print jsm.message
@@ -339,10 +344,10 @@ Sub httpServer_HandleJSEvent(origMsg as Object)
         endif
     elseif (jsm.url = "file:///sd:/node/portalServer.html" and jsm.reason = "load-finished") then
         result = m.dgSocket.SendTo("127.0.0.1", 5900, "hostname!!" + m.AP_Hostname)
-        print "Send Captive portal UDP: ";result
+        print "Send Captive portal UDP: -------------------------------------------------------";result
         m.isAdminServerStart = true
     else
-        print "NO Message in js object"
+        print "NO Message in js object --------------------------------------------------------------"
     endif
 
 End Sub

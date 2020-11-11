@@ -9,7 +9,7 @@
     <videoConnector>HDMI</videoConnector>
     <deviceWebPageDisplay>Custom</deviceWebPageDisplay>
     <customDeviceWebPageSiteName>DWP</customDeviceWebPageSiteName>
-    <customDeviceWebPage>D:\brightmenulink_bs\bs-bright-menu-link\courtesy_wifi\courtesy_wifi_presentation_demo\dwp\dwindex.html</customDeviceWebPage>
+    <customDeviceWebPage>C:\Users\Evan\Documents\GitHub\Amazon-Devices-Gen2\brightlink\courtesy_wifi\courtesy_wifi_presentation_demo\dwp\dwindex.html</customDeviceWebPage>
     <alphabetizeVariableNames>True</alphabetizeVariableNames>
     <delayScheduleChangeUntilMediaEndEvent>False</delayScheduleChangeUntilMediaEndEvent>
     <htmlEnableJavascriptConsole>False</htmlEnableJavascriptConsole>
@@ -280,11 +280,11 @@
     <scriptPlugins>
       <scriptPlugin>
         <name>httpServer</name>
-        <path>D:\brightmenulink_bs\bs-bright-menu-link\courtesy_wifi\courtesy_wifi_presentation_demo\httpServer-npm-auto_v3.brs</path>
+        <path>C:\Users\Evan\Documents\GitHub\Amazon-Devices-Gen2\brightlink\courtesy_wifi\courtesy_wifi_presentation_demo\httpServer-npm-auto_v3.brs</path>
       </scriptPlugin>
       <scriptPlugin>
         <name>Access</name>
-        <path>D:\brightmenulink_bs\bs-bright-menu-link\courtesy_wifi\courtesy_wifi_presentation_demo\Set_Player_As_Access_Point_plugin.brs</path>
+        <path>C:\Users\Evan\Documents\GitHub\Amazon-Devices-Gen2\brightlink\courtesy_wifi\courtesy_wifi_presentation_demo\Set_Player_As_Access_Point_plugin.brs</path>
       </scriptPlugin>
     </scriptPlugins>
     <videoModePlugins>
@@ -314,26 +314,26 @@
     </presentationIdentifiers>
     <beacons>
     </beacons>
-    <additionalFileToPublish>D:\brightmenulink_bs\bs-bright-menu-link\courtesy_wifi\courtesy_wifi_presentation_demo\npm.zip</additionalFileToPublish>
+    <additionalFileToPublish>C:\Users\Evan\Documents\GitHub\Amazon-Devices-Gen2\brightlink\courtesy_wifi\courtesy_wifi_presentation_demo\npm.zip</additionalFileToPublish>
     <DirectoryLocations>
-      <AllFiles>D:\brightmenulink_bs\bs-bright-menu-link\courtesy_wifi\courtesy_wifi_presentation_demo</AllFiles>
-      <Image>D:\captive\newcaptive</Image>
-      <Video>D:\captive\newcaptive</Video>
-      <Audio>D:\captive\newcaptive</Audio>
-      <Media>D:\captive\newcaptive</Media>
-      <Fonts>D:\captive\newcaptive</Fonts>
-      <HTML>D:\brightmenulink_bs\bs-bright-menu-link\courtesy_wifi\courtesy_wifi_presentation_demo</HTML>
-      <PluginScriptsAutoruns>D:\brightmenulink_bs\bs-bright-menu-link\courtesy_wifi\courtesy_wifi_presentation_demo</PluginScriptsAutoruns>
-      <CSV>D:\captive\newcaptive</CSV>
-      <RFChannelScan>D:\captive\newcaptive</RFChannelScan>
-      <Schedules>D:\captive\newcaptive</Schedules>
-      <ReplacementMedia>D:\captive\newcaptive</ReplacementMedia>
-      <UserVariables>D:\captive\newcaptive</UserVariables>
-      <XModemFiles>D:\captive\newcaptive</XModemFiles>
-      <ImportCommandFiles>D:\captive\newcaptive</ImportCommandFiles>
+      <AllFiles>C:\Users\Evan\Documents\GitHub\Amazon-Devices-Gen2\brightlink\courtesy_wifi\courtesy_wifi_presentation_demo</AllFiles>
+      <Image>C:\Users\Evan\Documents\GitHub\Amazon-Devices-Gen2\brightlink\courtesy_wifi\courtesy_wifi_presentation_demo</Image>
+      <Video>C:\Users\Evan\Documents\GitHub\Amazon-Devices-Gen2\brightlink\courtesy_wifi\courtesy_wifi_presentation_demo</Video>
+      <Audio>C:\Users\Evan\Documents\GitHub\Amazon-Devices-Gen2\brightlink\courtesy_wifi\courtesy_wifi_presentation_demo</Audio>
+      <Media>C:\Users\Evan\Documents\GitHub\Amazon-Devices-Gen2\brightlink\courtesy_wifi\courtesy_wifi_presentation_demo</Media>
+      <Fonts>C:\Users\Evan\Documents\GitHub\Amazon-Devices-Gen2\brightlink\courtesy_wifi\courtesy_wifi_presentation_demo</Fonts>
+      <HTML>C:\Users\Evan\Documents\GitHub\Amazon-Devices-Gen2\brightlink\courtesy_wifi\courtesy_wifi_presentation_demo</HTML>
+      <PluginScriptsAutoruns>C:\Users\Evan\Documents\GitHub\Amazon-Devices-Gen2\brightlink\courtesy_wifi\courtesy_wifi_presentation_demo</PluginScriptsAutoruns>
+      <CSV>C:\Users\Evan\Documents\GitHub\Amazon-Devices-Gen2\brightlink\courtesy_wifi\courtesy_wifi_presentation_demo</CSV>
+      <RFChannelScan>C:\Users\Evan\Documents\GitHub\Amazon-Devices-Gen2\brightlink\courtesy_wifi\courtesy_wifi_presentation_demo</RFChannelScan>
+      <Schedules>C:\Users\Evan\Documents\GitHub\Amazon-Devices-Gen2\brightlink\courtesy_wifi\courtesy_wifi_presentation_demo</Schedules>
+      <ReplacementMedia>C:\Users\Evan\Documents\GitHub\Amazon-Devices-Gen2\brightlink\courtesy_wifi\courtesy_wifi_presentation_demo</ReplacementMedia>
+      <UserVariables>C:\Users\Evan\Documents\GitHub\Amazon-Devices-Gen2\brightlink\courtesy_wifi\courtesy_wifi_presentation_demo</UserVariables>
+      <XModemFiles>C:\Users\Evan\Documents\GitHub\Amazon-Devices-Gen2\brightlink\courtesy_wifi\courtesy_wifi_presentation_demo</XModemFiles>
+      <ImportCommandFiles>C:\Users\Evan\Documents\GitHub\Amazon-Devices-Gen2\brightlink\courtesy_wifi\courtesy_wifi_presentation_demo</ImportCommandFiles>
     </DirectoryLocations>
     <graphicsZOrder>Front</graphicsZOrder>
-    <isMosaic>True</isMosaic>
+    <isMosaic>False</isMosaic>
   </meta>
   <zones>
     <zone>
